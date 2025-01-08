@@ -7,14 +7,143 @@
 }
 body {
   font-family: Montserrat, sans-serif;
+  background-color: black;
+}
+.card {
+  background-color: #111111;
+  border: #333333 1px solid;
+}
+.card-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 0.875rem;
+}
+.bi {
+  font-size: 1rem;
+}
+.timeline {
+  border-left: 1px solid #333333;
+  position: relative;
+  list-style: none;
+  top: 5px;
 }
 
-.picture {
-  width: 200px;
+.timeline .timeline-item {
+  position: relative;
+  margin-left: -15px;
+  top: -5px;
 }
 
-@media only screen and (max-width: 768px){
-  .picture {
-    width: 200px;
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0px;
+}
+
+.timeline .timeline-item:after {
+  background-color: black;
+  left: -24.4px;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  content: "";
+  border: 2px #333333 solid;
+  margin-top: 3px;
+  transition: all 0.1s ease-in-out;
+}
+.timeline .timeline-item:hover:after {
+  background-color: white;
+  left: -24.4px;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  content: "";
+  border: 2px #333333 solid;
+}
+
+.timeline .timeline-item-active {
+  position: relative;
+  margin-left: -15px;
+  top: -5px;
+}
+
+.timeline .timeline-item-active:after {
+  position: absolute;
+  display: block;
+  top: 0px;
+}
+
+.timeline .timeline-item-active:after {
+  background-color: white;
+  left: -24.4px;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  content: "";
+  margin-top: 3px;
+  transition: all 0.1s ease-in-out;
+}
+
+.timeline .timeline-title {
+  font-size: 0.875rem;
+
+}
+
+.timeline .timeline-secondary-title {
+  font-size: 0.75rem;
+}
+
+.img-badge {
+  padding: -20px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.btn-black {
+  background-color: black;
+  border: 0;
+}
+
+.btn-black:hover, .btn-black:focus, .btn-black:active {
+  background-color: #111827 !important;
+  border: 0;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-xss {
+  font-size: 11px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .pic {
+    height: 10rem;
+    width: 10rem;
   }
+}
+.animate__delay {
+  --animate-delay: 0.5s;
 }
