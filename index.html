@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kendrix Brosas | Web Developer</title>
-  <link rel="manifest" href="/manifest.json" />
   <link rel="icon" href="images/icon.png" type="image/x-icon" />
   <link rel="apple-touch-icon" href="images/icon.png" />
   <meta name="author" content="Kendrix Brosas"/> 
@@ -15,7 +14,6 @@
   <meta name="msapplication-TileImage" content="images/icon.png" />
   <meta name="msapplication-TileColor" content="#000000" />
   <meta name="mobile-web-app-capable" content="yes" />
-  <link rel="icon" href="images/icon.png" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="preload" as="style" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preload" as="style" href="css/style.css" />
@@ -27,75 +25,83 @@
   <link rel="preload" as="image" href="images/hero-image.webp">
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" as="script">
 </head>
-<body">
-  <main class="mx-auto" style="max-width: 56rem; padding: 2rem 1rem 2rem 1rem;">
-    <div class="container mb-4 flex-column animate__animated animate__fadeInUp animate__faster">
-      <div class="row d-flex g-3">
-        <div class="col-auto">
-          <img src="images/hero-image.webp" alt="Kendrix Brosas" class="img-fluid rounded mw-100 pic" width="160" style="max-width: 100%;">
+<body>
+  <main class="animate__animated animate__fadeIn">
+    <div class="max-w-4xl mx-auto px-4 w-100 py-8 main">
+      <section class="mb-8 flex-column animate__animated animate__fadeIn">
+        <div class="d-flex gap-4 align-items-center">
+          <img src="images/hero-image.webp" alt="Kendrix Brosas" class="img-fluid rounded mw-100 pic flex-shrink-0" width="160" style="max-width: 100%;">
+          <div class="flex-1 min-w-0">
+            <h1 class="fw-bolder text-light text-lg md-text-2xl text-truncate mb-0">Kendrix Brosas</h1>
+            <p class="text-light fs-bold text-xs md-text-sm text-truncate mt-0-5 mb-0"><i class="bi bi-geo-alt text-xs"></i> Liliw, Philippines</p>
+            <h1 class="text-light text-sm md-text-base text-truncate mt-1-5 md-mt-2 mb-0">Web Developer</h1>
+            <div class="d-flex gap-2 mt-3 md-mt-4">
+              <a class="btn btn-light text-xs rounded-3 px-3"><i class="bi bi-telephone me-1 text-xs"></i> Call Now</a>
+              <a class="btn btn-black-gray text-light text-xs rounded-3 px-3" style="border: #333 1px solid;"><i class="bi bi-envelope me-1 text-xs"></i> Send Email</a>
+            </div>
+          </div>
         </div>
-        <div class="col-auto pt-2">
-          <h1 class="fw-bolder text-light text-lg">Kendrix Brosas</h1>
-          <p class="text-light fs-bold text-xs"><i class="bi bi-geo-alt"></i> Liliw, Philippines</p>
-          <h1 class="text-light fw-bold" style="font-size: 0.875rem;"> Web Developer</h1>
-        </div>
-      </div>
-    </div>
-    <div class="container h-100">
-      <div class="row d-flex g-2">
-        <div class="col-md-12 col-lg-8 h-100">
-          <div class="row">
-            <div class="col-lg-12 col-md-12">
-              <div class="card rounded-3 mb-2 pb-3 animate__animated animate__fadeInUp animate__fast">
-                <div class="card-body text-light">
-                  <div class="card-title"><i class="bi bi-person-workspace me-1"></i> About</div>
-                  <div class="card-text text-justify">
-                    I’m a dedicated Full-Stack Developer with a passion for creating innovative web and mobile applications.
-                    <br> <br>
-                    With a Bachelor’s degree in Information Technology and a focus on Web and Mobile Application Development, I bring a comprehensive understanding of both frontend and backend technologies to every project. From crafting responsive designs to optimizing backend performance,
-                    <br> <br>
-                    I strive to deliver high-quality, scalable, and user-centric applications. I’m also skilled in graphic design and have a keen eye for detail, which allows me to create visually stunning interfaces that enhance the user experience.
+      </section>
+      <section class="animate__animated animate__fadeInUp">
+        <div class="row g-2">
+          <div class="col-md-8">
+            <div class="row g-2">
+              <div class="col-md-12">
+                <div class="card rounded-3 animate__animated animate__fadeIn h-100">
+                  <div class="card-body text-light">
+                    <div class="card-title"><i class="bi bi-person-workspace me-1"></i> About</div>
+                    <div class="card-text">
+                      <p class="text-sm text-justify">
+                        I’m a dedicated Full-Stack Developer with a passion for creating innovative web and mobile applications.
+                        <br>
+                        <br>
+                        With a Bachelor’s degree in Information Technology and a focus on Web and Mobile Application Development, I bring a comprehensive understanding of both frontend and backend technologies to every project. From crafting responsive designs to optimizing backend performance,
+                        <br>
+                        <br>
+                        I strive to deliver high-quality, scalable, and user-centric applications. I’m also skilled in graphic design and have a keen eye for detail, which allows me to create visually stunning interfaces that enhance the user experience.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 col-lg-12 h-100">
-                <div class="card rounded-3 animate__animated animate__fadeInUp animate__fast pb-2">
+              <div class="col-md-12">
+                <div class="card rounded-3 animate__animated animate__fadeIn animate__delay-2 animate__fast h-100">
                   <div class="card-body text-light">
                     <div class="card-title"><i class="bi bi-boxes me-1"></i> Tech Stack</div>
-                    <div class="card-text pb-2">
-                      <div class="row d-flex g-2 text-center align-items-center">
+                    <div class="card-text">
+                      <div class="row g-2 text-center align-items-center">
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=html&theme=dark" width="20"/>HTML</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=html" width="20" class="me-1">HTML</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=css" width="20"/>CSS</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=css" width="20" class="me-1">CSS</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=js" width="20"/>JavaScript</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=js" width="20" class="me-1">JavaScript</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=php" width="20"/>PHP</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=php" width="20" class="me-1">PHP</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=mysql" width="20"/>MySQL</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=mysql" width="20" class="me-1">MySQL</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=bootstrap" width="20"/>Bootstrap</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=bootstrap" width="20" class="me-1">Bootstrap</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=cs" width="20"/>C Sharp</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=cs" width="20" class="me-1">C Sharp</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=python" width="20"/>Python</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=python" width="20" class="me-1">Python</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=java" width="20"/>Java</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=java" width="20" class="me-1">Java</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=github" width="20"/>Github</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=github" width="20" class="me-1">Github</p>
                         </div>
                         <div class="col-auto">
-                          <p class="border rounded-3 px-1 py-1 mb-0"><img class="me-1" src="https://skillicons.dev/icons?i=kali" width="20"/>Kali Linux</p>
+                          <p class="border rounded-3 px-1 py-1 mb-0"><img src="https://skillicons.dev/icons?i=kali" width="20" class="me-1">Kali Linux</p>
                         </div>
                       </div>
                     </div>
@@ -104,164 +110,142 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-12 col-lg-4 h-100">
-          <div class="card rounded-3 pb-3 animate__animated animate__fadeInUp animate__fast">
-            <div class="card-body text-light">
-              <div class="card-title"><i class="bi bi-briefcase me-1"></i> Experience</div>
-              <div class="card-text">
-                <ul class="timeline ms-2">
-                  <li class="timeline-item-active">
-                    <h5 class="fw-bold timeline-title">BS Information Technology</h5>
-                    <div class="row d-flex align-items-center justify-content-center">
-                      <div class="col">
-                        <p class="text-light timeline-secondary-title">Laguna State Polytechnic University - San Pablo City Campus</p>
-                      </div>
-                      <div class="col-auto">
+          <div class="col-md-4">
+            <div class="card rounded-3 animate__animated animate__fadeIn animate__delay-2 h-100">
+              <div class="card-body text-light">
+                <div class="card-title"><i class="bi bi-briefcase me-1"></i> Experience</div>
+                <div class="card-text mt-2">
+                  <ul class="timeline ms-2">
+                    <li class="timeline-item-active">
+                      <h5 class="fw-bold timeline-title">BS Information Technology</h5>
+                      <div class="d-flex gap-2 align-items-center justify-content-between">
+                        <p class="text-light timeline-secondary-title">LSPU - San Pablo City Campus</p>
                         <p class="badge border rounded-pill">2024</p>
                       </div>
-                    </div>
-                  </li>
-                  <li class="timeline-item">
-                    <h5 class="fw-bold timeline-title">Web Development Intern</h5>
-                    <div class="row d-flex align-items-center justify-content-center">
-                      <div class="col">
+                    </li>
+                    <li class="timeline-item">
+                      <h5 class="fw-bold timeline-title">Web Development Intern</h5>
+                      <div class="d-flex gap-2 align-items-center justify-content-between">
                         <p class="text-light timeline-secondary-title">San Antonio Construction Services</p>
-                      </div>
-                      <div class="col-auto">
                         <p class="badge border rounded-pill">2024</p>
                       </div>
-                    </div>
-                  </li>
-                  <li class="timeline-item">
-                    <h5 class="fw-bold timeline-title">Public Information Officer</h5>
-                    <h5 class="fw-bold timeline-secondary-title">Computer Club</h5>
-                    <div class="row d-flex align-items-center justify-content-center">
-                      <div class="col">
-                        <p class="text-light timeline-secondary-title">Laguna State Polytechnic University - San Pablo City Campus</p>
-                      </div>
-                      <div class="col-auto">
+                    </li>
+                    <li class="timeline-item">
+                      <h5 class="fw-bold timeline-title">Public Information Officer</h5>
+                      <h5 class="fw-bold timeline-secondary-title">Computer Club</h5>
+                      <div class="d-flex gap-2 align-items-center justify-content-between">
+                        <p class="text-light timeline-secondary-title">LSPU - San Pablo City Campus</p>
                         <p class="badge border rounded-pill">2022</p>
                       </div>
-                    </div>
-                  </li>
-                  <li class="timeline-item">
-                    <h5 class="fw-bold timeline-title">Production Operator</h5>
-                    <div class="row d-flex align-items-center justify-content-center">
-                      <div class="col">
+                    </li>
+                    <li class="timeline-item">
+                      <h5 class="fw-bold timeline-title">Production Operator</h5>
+                      <div class="d-flex gap-2 align-items-center justify-content-between">
                         <p class="text-light timeline-secondary-title">Canon Business Machines Philippines Inc.</p>
-                      </div>
-                      <div class="col-auto">
                         <p class="badge border rounded-pill">2020</p>
                       </div>
-                    </div>
-                  </li>
-                  <li class="timeline-item">
-                    <h5 class="fw-bold timeline-title">Freelance Video Editor</h5>
-                    <div class="row d-flex align-items-center justify-content-center">
-                      <div class="col">
+                    </li>
+                    <li class="timeline-item">
+                      <h5 class="fw-bold timeline-title">Freelance Video Editor</h5>
+                      <div class="d-flex gap-2 align-items-center justify-content-between">
                         <p class="text-light timeline-secondary-title">John Melo Sports, News and Entertainment</p>
-                      </div>
-                      <div class="col-auto">
                         <p class="badge border rounded-pill">2019</p>
                       </div>
-                    </div>
-                  </li>
-                </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row d-flex g-2 pt-2 h-100">
-        <div class="col-md-12 col-lg-8 order-xl-2">
-          <div class="row">
-            <div class="col-lg-12 col-md-12">
-              <div class="card rounded-3 mb-2 pb-2 animate__animated animate__fadeInUp animate__fast">
-                <div class="card-body text-light">
-                  <div class="row d-flex justify-content-between">
+          <div class="col-lg-4"> 
+            <div class="card rounded-3 animate__animated animate__fadeIn animate__delay-3 h-100">
+              <div class="card-body text-light">
+                <div class="card-title"><i class="bi bi-person-rolodex me-1"></i></i> Connect</div>
+                <a href="mailto:brosaskndrx05@gmail.com" target="_blank" class="btn btn-black text-light w-100 text-start mb-3">
+                  <p class="mb-0 text-xs fw-bold">Email</p>
+                  <p class="mb-0 text-sm">brosaskndrx05@gmail.com</p>
+                </a>
+                <p class="mb-0 text-xs mb-1">Let's Talk</p>
+                <a href="tel:+639664179718" target="_blank" class="btn btn-black text-light w-100 text-start mb-3">
+                  <div class="row justify-content-between align-items-center">
                     <div class="col-auto">
-                      <div class="card-title"><i class="bi bi-award me-1"></i> Certificates</div>
+                      <p class="mb-0 text-sm fw-bold">Call Now</p>
                     </div>
                     <div class="col-auto">
-                      <a href="certificates.html" class="text-xs link link-underline link-underline-opacity-0 text-light">View All <i class="bi bi-chevron-right text-xs"></i></a>
+                      <i class="bi bi-arrow-right text-xs"></i>
                     </div>
                   </div>
-                  <a href="https://drive.google.com/file/d/1TcR4sUTQEm_V8qWpXO3k_GoqXV1c9Npt/view" target="_blank" class="btn btn-black text-light w-100 text-start mb-2">
-                    <p class="mb-0 text-xs fw-bold">Cybersecurity Fundamentals</p>
-                    <p class="mb-0 text-xss">IBM SkillsBuild</p>
-                  </a>
-                  <a href="https://drive.google.com/file/d/1aVdir9E3JtnsNgYHmBiTPqPm7WEPxlrT/view" target="_blank" class="btn btn-black text-light w-100 text-start mb-2">
-                    <p class="mb-0 text-xs fw-bold">Networking Basics</p>
-                    <p class="mb-0 text-xss">Cisco Networking Academy</p>
-                  </a>
-                  <a class="btn btn-black text-light w-100 text-start mb-2">
-                    <p class="mb-0 text-xs fw-bold">Hello</p>
-                    <p class="mb-0 text-xss">Hello</p>
-                  </a>
-                  <a class="btn btn-black text-light w-100 text-start">
-                    <p class="mb-0 text-xs fw-bold">Hello</p>
-                    <p class="mb-0 text-xss">Hello</p>
-                  </a>
+                </a>
+                <p class="mb-0 text-xs mb-1">Social Links</p>
+                <div class="row g-2 align-items-center">
+                  <div class="col-3">
+                    <a class="btn btn-black text-light text-start w-100" href="https://www.github.com/kndrxxe" target="_blank">
+                      <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-github text-lg"></i></p>
+                    </a>
+                  </div>
+                  <div class="col-3">
+                    <a class="btn btn-black text-light text-start w-100" href="https://www.facebook.com/KendrixBrosas" target="_blank">
+                      <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-facebook text-lg"></i></p>
+                    </a>
+                  </div>
+                  <div class="col-3">
+                    <a class="btn btn-black text-light text-start w-100" href="https://www.instagram.com/kndrxxe" target="_blank">
+                      <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-instagram text-lg"></i></p>
+                    </a>
+                  </div>
+                  <div class="col-3">
+                    <a class="btn btn-black text-light text-start w-100" href="https://www.linkedin.com/in/kendrixbrosas" target="_blank">
+                      <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-linkedin text-lg"></i></p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="card rounded-3 animate__animated animate__fadeIn animate__delay-3 h-100">
+                  <div class="card-body text-light">
+                    <div class="row justify-content-between">
+                      <div class="col-auto">
+                        <div class="card-title"><i class="bi bi-award me-1"></i> Certificates</div>
+                      </div>
+                      <div class="col-auto">
+                        <a href="/certificates.html" class="text-xs link link-underline link-underline-opacity-0 text-light">View All <i class="bi bi-chevron-right text-xs"></i></a>
+                      </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1TcR4sUTQEm_V8qWpXO3k_GoqXV1c9Npt/view" target="_blank" class="btn btn-black text-light w-100 text-start mb-2">
+                      <p class="mb-0 text-xs fw-bold">Cybersecurity Fundamentals</p>
+                      <p class="mb-0 text-xss">IBM SkillsBuild</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1aVdir9E3JtnsNgYHmBiTPqPm7WEPxlrT/view" target="_blank" class="btn btn-black text-light w-100 text-start mb-2">
+                      <p class="mb-0 text-xs fw-bold">Networking Basics</p>
+                      <p class="mb-0 text-xss">Cisco Networking Academy</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1ZBHTgA1xUjbudRdw0Rn_ixB6mplPKp4j/view" target="_blank" class="btn btn-black text-light w-100 text-start mb-2">
+                      <p class="mb-0 text-xs fw-bold">Using Computer and Mobile Devices</p>
+                      <p class="mb-0 text-xss">Cisco Networking Academy</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1-qFaqT9voTojqnm_ZW8fB6NNG7A-FOXm/view" target="_blank" class="btn btn-black text-light w-100 text-start">
+                      <p class="mb-0 text-xs fw-bold">Cyber Threat Management</p>
+                      <p class="mb-0 text-xss">Cisco Networking Academy</p>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 order-xl-1 h-100"> 
-          <div class="card rounded-3 mb-2 pb-3 animate__animated animate__fadeInUp animate__fast">
-            <div class="card-body text-light">
-              <div class="card-title"><i class="bi bi-person-rolodex me-1"></i></i> Connect</div>
-              <a href="mailto:brosaskndrx05@gmail.com" target="_blank" class="btn btn-black text-light w-100 text-start mb-3">
-                <p class="mb-0 text-xs fw-bold">Email</p>
-                <p class="mb-0 text-sm">brosaskndrx05@gmail.com</p>
-              </a>
-              <p class="mb-0 text-xs mb-1">Let's Talk</p>
-              <a href="tel:+639664179718" target="_blank" class="btn btn-black text-light w-100 text-start mb-3">
-                <div class="row justify-content-between align-items-center">
-                  <div class="col-auto">
-                    <p class="mb-0 text-sm fw-bold">Call Now</p>
-                  </div>
-                  <div class="col-auto">
-                    <i class="bi bi-arrow-right text-xs"></i>
-                  </div>
-                </div>
-              </a>
-              <p class="mb-0 text-xs mb-1">Social Links</p>
-              <div class="row d-flex g-2 align-items-center">
-                <div class="col-3">
-                  <a class="btn btn-black text-light text-start w-100" href="https://www.github.com/kndrxxe" target="_blank">
-                    <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-github text-lg"></i></p>
-                  </a>
-                </div>
-                <div class="col-3">
-                  <a class="btn btn-black text-light text-start w-100" href="https://www.facebook.com/KendrixBrosas" target="_blank">
-                    <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-facebook text-lg"></i></p>
-                  </a>
-                </div>
-                <div class="col-3">
-                  <a class="btn btn-black text-light text-start w-100" href="https://www.instagram.com/kndrxxe" target="_blank">
-                    <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-instagram text-lg"></i></p>
-                  </a>
-                </div>
-                <div class="col-3">
-                  <a class="btn btn-black text-light text-start w-100" href="https://www.linkedin.com/in/kendrixbrosas" target="_blank">
-                    <p class="mb-0 text-xs fw-bold text-center"><i class="bi bi-linkedin text-lg"></i></p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
+    <footer class="animate__animated animate__fadeInUp animate__delay-3 mx-auto max-w-4xl mx-auto px-4 w-100 py-8">
+      <hr class="border-light">
+      <div class="col align-items-center px-3">
+        <span class="mt-3 text-light text-sm">© <span><script>document.write(new Date().getFullYear())</script></span> Kendrix Brosas. | All Rights Reserved.</span>
+      </div>
+    </footer>
   </main>
-  <footer class="mx-auto animate__animated animate__fadeInUp animate__fast" style="max-width: 56rem; padding: 2rem 1rem 2rem 1rem;">
-    <hr class="border-light">
-    <div class="col d-flex align-items-center px-3">
-      <span class="mt-3 text-light text-sm">© <span><script>document.write(new Date().getFullYear())</script></span> Kendrix Brosas. | All Rights Reserved.</span>
-    </div>
-  </footer>
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
