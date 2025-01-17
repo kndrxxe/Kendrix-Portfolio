@@ -5,7 +5,7 @@
       "destination": "/certificates.html"
     },
     {
-      "source": "/index",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
