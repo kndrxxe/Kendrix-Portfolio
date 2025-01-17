@@ -211,54 +211,6 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0.5rem;
 }
 
-.animate__delay-1 {
-  animation-delay: 100ms;
-}
-
-.animate__delay-2 {
-  animation-delay: 200ms;
-}
-
-.animate__delay-3 {
-  animation-delay: 300ms;
-}
-
-.animate__delay-4 {
-  animation-delay: 400ms;
-}
-
-.animate__delay-5 {
-  animation-delay: 500ms;
-}
-
-.animate__delay-6 {
-  animation-delay: 600ms;
-}
-
-.animate__delay-7 {
-  animation-delay: 700ms;
-}
-
-.animate__delay-8 {
-  animation-delay: 800ms;
-}
-
-.animate__delay-9 {
-  animation-delay: 900ms;
-}
-
-.animate__delay-10 {
-  animation-delay: 1000ms;
-}
-
-.animate__delay-11 {
-  animation-delay: 1100ms;
-}
-
-.animate__delay-12 {
-  animation-delay: 1200ms;
-}
-
 
 main {
   width: 100%;
@@ -267,6 +219,55 @@ main {
 footer {
   margin-top: auto;
   width: 100%;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+      transform: translateY(10px)
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0)
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in .5s ease-in-out forwards
+}
+
+@keyframes fade-in-up {
+  0% {
+      opacity: 0;
+      transform: translateY(20px)
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0)
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fade-in-up .6s ease-out forwards
+}
+
+@keyframes page-transition {
+  0% {
+      opacity: 0;
+      transform: translateY(20px)
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0)
+  }
+}
+
+.page-transition {
+  animation: page-transition .3s ease-out
 }
 
 @media (min-width: 768px) {
