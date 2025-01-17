@@ -3,6 +3,10 @@
     {
       "source": "/certificates",
       "destination": "/certificates.html"
+    },
+    {
+      "source": "/index",
+      "destination": "/index.html"
     }
   ]
 }
