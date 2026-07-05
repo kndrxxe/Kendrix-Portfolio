@@ -8,6 +8,7 @@
 body {
   font-family: Montserrat, sans-serif;
   background-color: black;
+  color: #fff;
 }
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
@@ -32,7 +33,7 @@ body::-webkit-scrollbar-thumb {
 
 .max-w-4xl {
   max-width: 56rem;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .card {
@@ -216,22 +217,6 @@ footer {
   width: 100%;
 }
 
-@keyframes fade-in {
-  0% {
-      opacity: 0;
-      transform: translateY(10px)
-  }
-
-  to {
-      opacity: 1;
-      transform: translateY(0)
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in .5s ease-in-out forwards
-}
-
 @keyframes fade-in-up {
   0% {
       opacity: 0;
@@ -246,7 +231,7 @@ footer {
 
 .animate-fade-in {
   opacity: 0;
-  animation: fade-in-up .6s ease-out forwards
+  animation: fade-in-up .6s ease-out forwards;
 }
 
 @keyframes page-transition {
